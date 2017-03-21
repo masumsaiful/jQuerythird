@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquary</title>
+	<link rel="icon" type="image/png" href="assets/images/jquery.png">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round|PT+Serif|Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+</head>
+<body>
+<div class="container">
+
+                       <!--accordion-->
+<div class="col-sm-4 col-xs-12">
+<div class="accordion-area">
+   <span class="text-center">accordion</span>
+</div>
+<div id="accordion">
+
+  <h3>Section 1</h3>
+  <div>
+    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+  </div>
+</div>
+</div>
+                <!--accordion-->
+
+                
+
+                <!--copypaste-->
+   <div class="copypaste">
+
+    <div class="col-sm-5 col-xs-12">
+    <div class="copon">
+      <h4>copy & paste</h4>
+    </div>
+    <div class="copone">
+      <p id="copy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining</p> 
+      <div class="form-group">
+
+        <textarea rows="7" class="form-control" id="paste"></textarea>
+      </div>
+      <button class="btn btn-info btn-lg" id="click-to-paste">Click Here To Paste</button>
+    </div>
+    </div>
+
+</div>
+              <!--copypaste-->
+              <!--datepicker-->
+
+<div class="col-sm-3 col-xs-12">
+ <div class="dat-pc">
+  <span>datepicker</span>
+
+ <input type="text" name="text" id="datepicfker" placeholder="Input only digit"
+  class="form-control">
+  </div>
+</div>
+
+                <!--datepicker-->
+
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/css/jquery-ui.js"></script>
+<script src="assets/css/bootstrap.js"></script>
+
+</script>
+      
+                     
+
+
+<script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+  </script>
+
+
+</div>
+
+                  <!--datepicker-->
+<script>
+  
+  $( function() {
+    $( "#datepicfker" ).datepicker();
+  } );
+</script>
+
+                  <!--datepicker-->
+
+                  <!--copypaste-->
+<script>
+$(function(){
+   $("#click-to-paste").click(function(){
+
+
+    var copy=$("#copy").text();
+
+
+    $("#paste").val(copy).css({"color":"#006699","background":"#eee"})
+      
+   })
+})
+</script>
+                  <!--copypaste-->
+
+
+</body>
+</html>

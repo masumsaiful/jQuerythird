@@ -1,0 +1,147 @@
+
+#accordion h3{
+    color: #545353;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+}
+#accordion p {
+    margin: 0 0 10px;
+    color: black;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+#accordion {
+    border: 1px solid #e2e1e1;
+    padding: 10px;
+    cursor: pointer;
+     border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #F8F8F8;
+    border-top: none;
+    position: relative;
+}
+
+.accordion-area {
+    text-align: center;
+    background: #F8F8F8;
+    border: 1px solid #e2e1e1;
+    margin-top: 20px;
+    border-bottom: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.accordion-area span{
+      text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Crete Round', serif;
+    color: #777777;
+}
+
+/***copypaste***/
+.copon{
+   
+    text-align: center;
+    background: #F8F8F8;
+    border: 1px solid #e2e1e1;
+    border-bottom: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.copon h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Crete Round', serif;
+    color: #777777;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: 4px;
+}
+.copypaste{
+  margin-top: 20px;
+}
+.copypaste p{
+  color: black;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+.copone{
+       border: 1px solid #e2e1e1;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #F8F8F8;
+    border-top: none;
+    position: relative;
+}
+
+/***copypaste***/
+
+/***datepicker***/
+.dat-pc{
+      background: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #e2e1e1;
+    border-radius: 5px;
+}
+.dat-pc span{
+ text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Crete Round', serif;
+    color: #777777;
+    margin-bottom: 10px;
+
+}
+ .form-control{
+  margin-top: 10px;
+} 
+#ui-datepicker-div a {
+  color: #337ab7;
+    text-decoration: none;
+    margin-right: 20px;
+}
+  .ui-datepicker-title {
+    margin-left: 49%;
+    font-size: 20px;
+    color: #1d8a2b;
+}
+#ui-datepicker-div a {
+    color: #052744;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.ui-datepicker-prev, .ui-datepicker-next{
+   cursor: pointer;
+    color: #5cd206;
+}
+
+.ui-datepicker-week-end th {
+    text-align: left;
+    color: #c7ffd9;
+}
+/***datepicker***/
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .dat-pc{
+      width: 260px;
+ }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
